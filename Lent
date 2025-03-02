@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lent: A Journey of Faith and Reflection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Base styles and dark mode */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    h1, h2, h3, h4 {
+      color: #ffffff;
+      margin-top: 1em;
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #4e9af1;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Hamburger menu styles */
+    .hamburger {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      font-size: 30px;
+      color: #e0e0e0;
+      z-index: 1001;
+      cursor: pointer;
+    }
+    #menu-toggle {
+      display: none;
+    }
+    .menu {
+      position: fixed;
+      top: 0;
+      left: -250px;
+      width: 250px;
+      height: 100%;
+      background-color: #222;
+      overflow-y: auto;
+      transition: left 0.3s ease;
+      z-index: 1000;
+      padding-top: 60px;
+    }
+    #menu-toggle:checked ~ .menu {
+      left: 0;
+    }
+    .menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menu li {
+      border-bottom: 1px solid #444;
+    }
+    .menu li a {
+      display: block;
+      padding: 15px;
+      color: #e0e0e0;
+    }
+    .menu li a:hover {
+      background-color: #333;
+    }
+    /* Content container */
+    .content {
+      padding: 20px;
+      padding-top: 60px; /* for space beneath the fixed hamburger */
+    }
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    table, th, td {
+      border: 1px solid #444;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    /* Works Cited styling */
+    #works-cited {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 5px;
+      margin: 30px 0;
+    }
+    #works-cited ol {
+      padding-left: 20px;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .hamburger {
+        font-size: 26px;
+        top: 5px;
+        left: 5px;
+      }
+      .menu {
+        width: 200px;
+      }
+      .content {
+        padding: 15px;
+        padding-top: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hamburger menu trigger -->
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="hamburger">&#9776;</label>
+  <nav class="menu">
+    <ul>
+      <li><a href="#overview" onclick="document.getElementById('menu-toggle').checked = false;">Overview &amp; Origins</a></li>
+      <li><a href="#early" onclick="document.getElementById('menu-toggle').checked = false;">Early Observance</a></li>
+      <li><a href="#practices" onclick="document.getElementById('menu-toggle').checked = false;">Practices &amp; Traditions</a></li>
+      <li><a href="#symbolism" onclick="document.getElementById('menu-toggle').checked = false;">Symbolism &amp; Resources</a></li>
+      <li><a href="#conclusion" onclick="document.getElementById('menu-toggle').checked = false;">Conclusion</a></li>
+      <li><a href="#works-cited" onclick="document.getElementById('menu-toggle').checked = false;">Works Cited</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <section id="overview">
+      <h1>Lent: A Journey of Faith and Reflection</h1>
+      <p>
+        Lent is a significant observance in the Christian calendar—a time of reflection, repentance, and spiritual renewal leading up to Easter. While its core meaning remains consistent across denominations, the ways in which different Christian traditions observe Lent have evolved over time.
+      </p>
+      <h2>Origins of Lent</h2>
+      <p>
+        The origins of Lent can be traced back to the early Church following the Council of Nicea in 325 AD [1]. The term "Lent" comes from the Old English word "lencten," meaning "spring season," emphasizing renewal and new life. Initially, Lent focused on fasting as preparation for Easter—especially for new converts preparing for baptism [1]. The 40‑day period was inspired by Jesus's 40 days of fasting in the wilderness [2], a time of prayer and temptation before his public ministry.
+      </p>
+      <p>
+        Although the Council of Nicea set the 40‑day fast, the exact start date and duration were fluid until Pope Gregory I formalized the period to begin on Ash Wednesday—46 days before Easter—allowing six feast Sundays within Lent [3].
+      </p>
+    </section>
+
+    <section id="early">
+      <h2>Early Church Observance</h2>
+      <p>
+        Before the East‑West Schism, Lent was experienced communally, emphasizing both individual and collective repentance [4]. Catechumens underwent periods of instruction and fasting prior to their baptism at Easter [5], while the entire community engaged in prayer and penance.
+      </p>
+      <p>
+        The Lenten fast was once very strict—allowing only one meal per day after 3 PM, with no meat, fish, or dairy [6]. Over time, these rules relaxed, permitting earlier meals and even a smaller evening meal [6]. Additionally, practices such as wearing sackcloth and ashes symbolized unity and commitment to repentance [4].
+      </p>
+    </section>
+
+    <section id="practices">
+      <h2>Practices &amp; Traditions</h2>
+      <h3>The Three Pillars of Lent</h3>
+      <h4>Prayer</h4>
+      <p>
+        Prayer deepens one’s relationship with God by offering opportunities for repentance, guidance, and communion.
+      </p>
+      <h4>Fasting</h4>
+      <p>
+        Fasting is an act of self‑discipline and sacrifice—abstaining from certain foods or activities to foster self‑control and reliance on God.
+      </p>
+      <h4>Almsgiving</h4>
+      <p>
+        Almsgiving represents charity and care for one’s neighbor, reinforcing that Lent is as much about social justice as it is about personal piety.
+      </p>
+
+      <h2>Lent in Different Traditions</h2>
+      <h3>Roman Catholic Church</h3>
+      <p>
+        Catholics observe Lent with fasting and abstinence. Although historically strict [6], modern practices require abstaining from meat on specific days (Ash Wednesday, Good Friday, and all Fridays) [7]. In addition, Catholics are encouraged to deepen their prayer and almsgiving practices—with many also adopting personal sacrifices or new spiritual routines [9]. Note that while the fast ends on Holy Thursday, Lent extends until Holy Saturday [10].
+      </p>
+      <h3>Orthodox Church</h3>
+      <p>
+        The Orthodox Church observes Great Lent with a stricter fast—abstaining from all animal products (meat, dairy, and eggs) [11, 12]. The first week is often the most rigorous, and special liturgical practices (such as the Liturgy of the Presanctified Gifts and commemorative Saturdays) are observed. The table below outlines the significance of each Sunday during Great Lent:
+      </p>
+      <table>
+        <tr>
+          <th>Sunday</th>
+          <th>Name</th>
+          <th>Significance</th>
+        </tr>
+        <tr>
+          <td>First Sunday</td>
+          <td>Sunday of Orthodoxy</td>
+          <td>Celebrates the triumph of Orthodoxy over iconoclasm</td>
+        </tr>
+        <tr>
+          <td>Second Sunday</td>
+          <td>St. Gregory Palamas</td>
+          <td>Commemorates the theologian St. Gregory Palamas</td>
+        </tr>
+        <tr>
+          <td>Third Sunday</td>
+          <td>Adoration of the Cross</td>
+          <td>Veneration of the cross</td>
+        </tr>
+        <tr>
+          <td>Fourth Sunday</td>
+          <td>St. John of Climax</td>
+          <td>Honors the ascetic writer St. John of Climax</td>
+        </tr>
+        <tr>
+          <td>Fifth Sunday</td>
+          <td>St. Mary of Egypt</td>
+          <td>Celebrates the repentant St. Mary of Egypt</td>
+        </tr>
+        <tr>
+          <td>Sixth Sunday</td>
+          <td>Palm Sunday</td>
+          <td>Marks Jesus' triumphal entry into Jerusalem</td>
+        </tr>
+      </table>
+      <p>[15]</p>
+      <h3>Baptist, Pentecostal &amp; Charismatic Traditions</h3>
+      <p>
+        These traditions have not historically observed Lent in a formal way—emphasizing ongoing repentance instead. However, a growing number are adopting Lenten practices such as fasting and reflection [17, 19, 20, 21, 22].
+      </p>
+    </section>
+
+    <section id="symbolism">
+      <h2>Symbolism &amp; Resources</h2>
+      <h3>Symbolism and Scriptural Roots of Lent</h3>
+      <p>
+        The 40‑day period symbolizes not only Jesus's fast in the wilderness but also other biblical events (such as 40 days of rain during the flood and 40 years in the wilderness) [23], highlighting themes of testing, preparation, and renewal.
+      </p>
+      <h3>Ash Wednesday</h3>
+      <p>
+        Ash Wednesday marks the start of Lent with the imposition of ashes—symbolizing mourning, mortality, and repentance [3].
+      </p>
+      <h3>The Color Purple</h3>
+      <p>
+        Purple, used in liturgical vestments during Lent, symbolizes penitence and royalty—reflecting sorrow for sin and hope for redemption [14].
+      </p>
+      <h3>The Wilderness</h3>
+      <p>
+        The wilderness represents a period of testing and spiritual growth, inviting believers to confront their weaknesses and rely on God [24].
+      </p>
+      <h3>Resources for Newcomers</h3>
+      <ul>
+        <li><strong>"Lent: What It Means and Why It Matters"</strong> [25]</li>
+        <li><strong>"A Beginner's Guide to Lent"</strong> [26]</li>
+      </ul>
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>
+        Lent is a journey of faith and reflection that has resonated with Christians for centuries. Though practices vary among denominations, the core message of repentance, renewal, and preparation for Easter remains constant [1]. Through the spiritual disciplines of Lent, believers deepen their relationship with God and prepare for the resurrection.
+      </p>
+      <p>
+        This structured approach to spiritual growth—whether through traditional fasting and abstinence or modern personal sacrifices—ensures that Lent continues to meet the diverse needs of the faithful.
+      </p>
+    </section>
+
+    <section id="works-cited">
+      <h2>Works Cited</h2>
+      <ol>
+        <li>[1] A Short Version of the Long History of Lent — Blog - Groundwork Bible Study, accessed March 1, 2025, Link: <a href="https://groundworkonline.com/blog/a-short-version-of-the-long-history-of-lent" target="_blank">https://groundworkonline.com/blog/a-short-version-of-the-long-history-of-lent</a></li>
+        <li>[2] en.wikipedia.org, accessed March 1, 2025, Link: <a href="https://en.wikipedia.org/wiki/Lent" target="_blank">https://en.wikipedia.org/wiki/Lent</a></li>
+        <li>[3] The Biblical Foundations of Lent and Ash Wednesday | Museum of the Bible, accessed March 1, 2025, Link: <a href="https://www.museumofthebible.org/magazine/featured/the-biblical-foundations-of-lent-and-ash-wednesday" target="_blank">https://www.museumofthebible.org/...</a></li>
+        <li>[4] Lent in the Early Church - Ascension Press Media, accessed March 1, 2025, Link: <a href="https://media.ascensionpress.com/2018/03/01/lent-in-the-early-church/" target="_blank">https://media.ascensionpress.com/2018/03/01/lent-in-the-early-church/</a></li>
+        <li>[5] Lent and Roots in the Early Church - Swift Creek Baptist Church, accessed March 1, 2025, Link: <a href="https://www.swiftcreekbaptist.org/blog/lent-and-roots-in-the-early-church/" target="_blank">https://www.swiftcreekbaptist.org/blog/lent-and-roots-in-the-early-church/</a></li>
+        <li>[6] The History of Lent | EWTN, accessed March 1, 2025, Link: <a href="https://www.ewtn.com/catholicism/library/history-of-lent-11141" target="_blank">https://www.ewtn.com/catholicism/library/history-of-lent-11141</a></li>
+        <li>[7] Observing Lent and Holy Week - Saint Joseph Catholic Church, accessed March 1, 2025, Link: <a href="https://stjosephpc.org/lent" target="_blank">https://stjosephpc.org/lent</a></li>
+        <li>[8] What is Lent? | USCCB, accessed March 1, 2025, Link: <a href="https://www.usccb.org/prayer-worship/liturgical-year/lent" target="_blank">https://www.usccb.org/prayer-worship/liturgical-year/lent</a></li>
+        <li>[9] Lent 101: What Every Catholic Should Know - Ascension Press Media, accessed March 1, 2025, Link: <a href="https://media.ascensionpress.com/2020/02/21/lent-101-what-every-catholic-should-know/" target="_blank">https://media.ascensionpress.com/2020/02/21/lent-101-what-every-catholic-should-know/</a></li>
+        <li>[10] When Does Lent Start and End in 2025? - Christianity.com, accessed March 1, 2025, Link: <a href="https://www.christianity.com/wiki/holidays/when-is-lent-start-date-and-timeline.html" target="_blank">https://www.christianity.com/wiki/holidays/when-is-lent-start-date-and-timeline.html</a></li>
+        <li>[11] Lent - Wikipedia, accessed March 1, 2025, Link: <a href="https://en.wikipedia.org/wiki/Lent" target="_blank">https://en.wikipedia.org/wiki/Lent</a></li>
+        <li>[12] In what ways does Orthodox observance of "Great Lent" differ from the Catholic observance of Lent? : r/OrthodoxChristianity - Reddit, accessed March 1, 2025, Link: <a href="https://www.reddit.com/r/OrthodoxChristianity/comments/11dexbs/in_what_ways_does_orthodox_observance_of_great/" target="_blank">https://www.reddit.com/r/OrthodoxChristianity/...</a></li>
+        <li>[13] Guide to Lent, Holy Week, &amp; Pascha - St. Paul Orthodox Church, accessed March 1, 2025, Link: <a href="https://www.stpaul-orthodox.org/lent-holy-week-pascha-guide" target="_blank">https://www.stpaul-orthodox.org/lent-holy-week-pascha-guide</a></li>
+        <li>[14] Lent as Observed by Eastern Orthodox Christians - PrayTellBlog, accessed March 1, 2025, Link: <a href="https://praytellblog.com/index.php/2018/03/01/lent-as-observed-by-eastern-orthodox-christians/" target="_blank">https://praytellblog.com/index.php/2018/03/01/lent-as-observed-by-eastern-orthodox-christians/</a></li>
+        <li>[15] Great Lent - A Week by Week Meaning - Greek Orthodox Archdiocese of America, accessed March 1, 2025, Link: <a href="https://www.goarch.org/-/great-lent-a-week-by-week-meaning" target="_blank">https://www.goarch.org/-/great-lent-a-week-by-week-meaning</a></li>
+        <li>[16] Eastern Orthodox Beginning of Lent - Office of the Provost, accessed March 1, 2025, Link: <a href="https://provost.umich.edu/wp-content/uploads/2022/07/Eastern-Orthodox-Beginning-of-Lent.pdf" target="_blank">https://provost.umich.edu/wp-content/uploads/2022/07/Eastern-Orthodox-Beginning-of-Lent.pdf</a></li>
+        <li>[17] Why Baptists Do Not Practice Lent, accessed March 1, 2025, Link: <a href="https://mariposabaptist.church/blog/2023/04/17/why-baptists-do-not-practice-lent" target="_blank">https://mariposabaptist.church/blog/2023/04/17/why-baptists-do-not-practice-lent</a></li>
+        <li>[18] Is Observing Lent A Biblical Must For Pentecostal Christians Today - YouTube, accessed March 1, 2025, Link: <a href="https://www.youtube.com/watch?v=pFh-zQqRLv4" target="_blank">https://www.youtube.com/watch?v=pFh-zQqRLv4</a></li>
+        <li>[19] Why Baptist churches should celebrate Lent | Baptist State Convention of North Carolina, accessed March 1, 2025, Link: <a href="https://ncbaptist.org/article/why-baptist-churches-should-celebrate-lent/" target="_blank">https://ncbaptist.org/article/why-baptist-churches-should-celebrate-lent/</a></li>
+        <li>[20] 12 Ways Baptists Can Observe Lent - Good Faith Media, accessed March 1, 2025, Link: <a href="https://goodfaithmedia.org/12-ways-baptists-can-observe-lent-cms-15648/" target="_blank">https://goodfaithmedia.org/12-ways-baptists-can-observe-lent-cms-15648/</a></li>
+        <li>[21] How a Pentecostal Church Observed Lent by Darrell Huffman, accessed March 1, 2025, Link: <a href="https://tonycooke.org/articles-by-others/pentecostal-lent/" target="_blank">https://tonycooke.org/articles-by-others/pentecostal-lent/</a></li>
+        <li>[22] History of Catholic Charismatic Renewal - Diocese of Lafayette, accessed March 1, 2025, Link: <a href="https://diolaf.org/history-of-catholic-charismatic-renewal" target="_blank">https://diolaf.org/history-of-catholic-charismatic-renewal</a></li>
+        <li>[23] What is Lent all about? - Bible Society, accessed March 1, 2025, Link: <a href="https://www.biblesociety.org.uk/explore-the-bible/bible-articles/what-is-lent-all-about" target="_blank">https://www.biblesociety.org.uk/explore-the-bible/bible-articles/what-is-lent-all-about</a></li>
+        <li>[24] Is Lent Actually in the Bible? - Bible Verses &amp; Origin - Crosswalk.com, accessed March 1, 2025, Link: <a href="https://www.crosswalk.com/special-coverage/lent/is-lent-actually-in-the-bible.html" target="_blank">https://www.crosswalk.com/special-coverage/lent/is-lent-actually-in-the-bible.html</a></li>
+        <li>[25] Lent: What It Means and Why It Matters - The Crossing, accessed March 1, 2025, Link: <a href="https://info.thecrossingchurch.com/blog/lent-what-it-means-and-why-it-matters" target="_blank">https://info.thecrossingchurch.com/blog/lent-what-it-means-and-why-it-matters</a></li>
+        <li>[26] Beginner's Guide to Lent • - Erin Todd, accessed March 1, 2025, Link: <a href="https://erinltodd.com/beginners-guide-to-lent/" target="_blank">https://erinltodd.com/beginners-guide-to-lent/</a></li>
+      </ol>
+    </section>
+  </div>
+
+</body>
+</html>
